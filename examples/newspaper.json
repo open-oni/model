@@ -1,0 +1,32 @@
+
+{
+  "@context": "http://open-oni.github.io/model/context.json",
+  "@type": "CommonTitle",
+  "label": "Newspaper",
+  "hasMember": [
+  	{
+  	  "@type": "Title",
+  	  "label": "The Newspaper",
+  	  "location": "Location, State, Country",
+  	  "hasMember": [
+  	  	{
+  	  	  "@type": "Issue",
+  	  	  "date": "1923-01-08",
+  	  	  "hasMember": [
+  	  	    {
+  	  	      "@type": "Page",
+  	  	      "label": "p. 1",
+  	  	      "hasFile": [
+  	  	        {
+  	  	          "@type": "Image",
+  	  	          "height": 1000,
+  	  	          "width": 600
+  	  	        }
+  	  	      ]
+  	  	    }
+  	  	  ]
+  	  	}
+  	  ]
+  	}
+  ]
+}
