@@ -1,0 +1,14 @@
+{
+  "@id": "uri-for-title",
+  "@type": "Title",
+  "label": "Name of Newspaper",
+  "location": "Somewhere, SW",
+  "issues": [
+    {
+      "@id": "uri-for-issue",
+      "@type": "Issue",
+      "label": "Name for Issue",
+      "date": "1920-04-01"
+    }
+  ]
+}
